@@ -46,7 +46,7 @@ class Goatcabin(object):
             token = input("Please enter your GitHub API token: ")
 
         # log in to GHE
-        self.ghe = GitHubEnterprise(config["url"], token=token)
+        self.ghe = GitHub(config["url"], token=token)
 
         # get MDS org
         self.org = self.ghe.organization(config["org"])
