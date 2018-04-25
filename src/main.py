@@ -5,7 +5,7 @@ Mike Gelbart, 2016.
 """
 
 import github3 # docs at http://github3.readthedocs.io/en/develop/api.html
-from github3 import GitHubEnterprise
+from github3 import GitHub
 from github3.models import __timeformat__ as gh3_time_fmt
 
 import pandas as pd
